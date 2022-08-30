@@ -19,4 +19,17 @@ class CheckEvenOdd
      else
         System.out.println("Entered number is odd");
   }
-}
+}###########my 4th code updaet from singapure#############
+public class Prime {
+
+    public static void main(String[] args) {
+
+        int low = 20, high = 50;
+
+        while (low < high) {
+            if(checkPrimeNumber(low))
+                System.out.print(low + " ");
+
+            ++low;
+        }
+    }
